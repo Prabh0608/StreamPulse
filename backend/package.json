@@ -1,0 +1,32 @@
+{
+  "name": "streampulse-backend",
+  "version": "1.0.0",
+  "description": "A high-throughput cloud-native video streaming and background-processing platform featuring partial-content chunking and automated timeline preview generation.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "author": "Prabhjot Singh Saini",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^5.66.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0",
+    "mongoose": "^8.9.5",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.1"
+  }
+}
